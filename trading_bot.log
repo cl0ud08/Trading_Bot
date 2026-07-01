@@ -1,0 +1,100 @@
+2026-07-01 09:58:09 | DEBUG    | test | This is a DEBUG message
+2026-07-01 09:58:09 | INFO     | test | This is an INFO message
+2026-07-01 09:58:09 | WARNING  | test | This is a WARNING
+2026-07-01 09:58:09 | ERROR    | test | This is an ERROR
+2026-07-01 14:48:04 | DEBUG    | validators | Validating order inputs...
+2026-07-01 14:48:04 | DEBUG    | validators | Symbol validated: BTCUSDT
+2026-07-01 14:48:04 | DEBUG    | validators | Side validated: BUY
+2026-07-01 14:48:04 | DEBUG    | validators | Order type validated: MARKET
+2026-07-01 14:48:04 | DEBUG    | validators | Quantity validated: 0.001
+2026-07-01 14:48:04 | INFO     | validators | Inputs validated: {'symbol': 'BTCUSDT', 'side': 'BUY', 'order_type': 'MARKET', 'quantity': 0.001}
+2026-07-01 14:48:04 | INFO     | orders | Placing MARKET BUY order for BTCUSDT
+2026-07-01 14:48:04 | INFO     | client | BinanceClient initialized (Testnet)
+2026-07-01 14:48:04 | DEBUG    | client | POST https://testnet.binancefuture.com/fapi/v1/order | params: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.001, 'timestamp': 1782897484201, 'signature': '***'}
+2026-07-01 14:48:05 | DEBUG    | client | Response: {'code': -2015, 'msg': 'Invalid API-key, IP, or permissions for action'}
+2026-07-01 14:48:05 | ERROR    | client | API error 401: {'code': -2015, 'msg': 'Invalid API-key, IP, or permissions for action'}
+2026-07-01 14:48:05 | ERROR    | orders | Order rejected by Binance — code: -2015, msg: Invalid API-key, IP, or permissions for action
+2026-07-01 14:49:41 | DEBUG    | validators | Validating order inputs...
+2026-07-01 14:49:41 | DEBUG    | validators | Symbol validated: BTCUSDT
+2026-07-01 14:49:41 | DEBUG    | validators | Side validated: BUY
+2026-07-01 14:49:41 | DEBUG    | validators | Order type validated: MARKET
+2026-07-01 14:49:41 | DEBUG    | validators | Quantity validated: 0.001
+2026-07-01 14:49:41 | INFO     | validators | Inputs validated: {'symbol': 'BTCUSDT', 'side': 'BUY', 'order_type': 'MARKET', 'quantity': 0.001}
+2026-07-01 14:49:41 | INFO     | orders | Placing MARKET BUY order for BTCUSDT
+2026-07-01 14:49:41 | INFO     | client | BinanceClient initialized (Testnet)
+2026-07-01 14:49:41 | DEBUG    | client | POST https://testnet.binancefuture.com/fapi/v1/order | params: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.001, 'timestamp': 1782897581216, 'signature': '***'}
+2026-07-01 14:49:42 | DEBUG    | client | Response: {'code': -2015, 'msg': 'Invalid API-key, IP, or permissions for action'}
+2026-07-01 14:49:42 | ERROR    | client | API error 401: {'code': -2015, 'msg': 'Invalid API-key, IP, or permissions for action'}
+2026-07-01 14:49:42 | ERROR    | orders | Order rejected by Binance — code: -2015, msg: Invalid API-key, IP, or permissions for action
+2026-07-01 14:52:10 | DEBUG    | validators | Validating order inputs...
+2026-07-01 14:52:10 | DEBUG    | validators | Symbol validated: BTCUSDT
+2026-07-01 14:52:10 | DEBUG    | validators | Side validated: BUY
+2026-07-01 14:52:10 | DEBUG    | validators | Order type validated: MARKET
+2026-07-01 14:52:10 | DEBUG    | validators | Quantity validated: 0.001
+2026-07-01 14:52:10 | INFO     | validators | Inputs validated: {'symbol': 'BTCUSDT', 'side': 'BUY', 'order_type': 'MARKET', 'quantity': 0.001}
+2026-07-01 14:52:10 | INFO     | orders | Placing MARKET BUY order for BTCUSDT
+2026-07-01 14:52:10 | INFO     | client | BinanceClient initialized (Testnet)
+2026-07-01 14:52:10 | DEBUG    | client | POST https://testnet.binancefuture.com/fapi/v1/order | params: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.001, 'timestamp': 1782897730351, 'signature': '***'}
+2026-07-01 14:52:11 | DEBUG    | client | Response: {'code': -2015, 'msg': 'Invalid API-key, IP, or permissions for action'}
+2026-07-01 14:52:11 | ERROR    | client | API error 401: {'code': -2015, 'msg': 'Invalid API-key, IP, or permissions for action'}
+2026-07-01 14:52:11 | ERROR    | orders | Order rejected by Binance — code: -2015, msg: Invalid API-key, IP, or permissions for action
+2026-07-01 14:55:16 | DEBUG    | validators | Validating order inputs...
+2026-07-01 14:55:16 | DEBUG    | validators | Symbol validated: BTCUSDT
+2026-07-01 14:55:16 | DEBUG    | validators | Side validated: BUY
+2026-07-01 14:55:16 | DEBUG    | validators | Order type validated: MARKET
+2026-07-01 14:55:16 | DEBUG    | validators | Quantity validated: 0.001
+2026-07-01 14:55:16 | INFO     | validators | Inputs validated: {'symbol': 'BTCUSDT', 'side': 'BUY', 'order_type': 'MARKET', 'quantity': 0.001}
+2026-07-01 14:55:16 | INFO     | orders | Placing MARKET BUY order for BTCUSDT
+2026-07-01 14:55:16 | INFO     | client | BinanceClient initialized (Testnet)
+2026-07-01 14:55:16 | DEBUG    | client | POST https://testnet.binancefuture.com/fapi/v1/order | params: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.001, 'timestamp': 1782897916548, 'signature': '***'}
+2026-07-01 14:55:18 | DEBUG    | client | Response: {'code': -1022, 'msg': 'Signature for this request is not valid.'}
+2026-07-01 14:55:18 | ERROR    | client | API error 400: {'code': -1022, 'msg': 'Signature for this request is not valid.'}
+2026-07-01 14:55:18 | ERROR    | orders | Order rejected by Binance — code: -1022, msg: Signature for this request is not valid.
+2026-07-01 15:00:11 | DEBUG    | validators | Validating order inputs...
+2026-07-01 15:00:11 | DEBUG    | validators | Symbol validated: BTCUSDT
+2026-07-01 15:00:11 | DEBUG    | validators | Side validated: BUY
+2026-07-01 15:00:11 | DEBUG    | validators | Order type validated: MARKET
+2026-07-01 15:00:11 | DEBUG    | validators | Quantity validated: 0.001
+2026-07-01 15:00:11 | INFO     | validators | Inputs validated: {'symbol': 'BTCUSDT', 'side': 'BUY', 'order_type': 'MARKET', 'quantity': 0.001}
+2026-07-01 15:00:11 | INFO     | orders | Placing MARKET BUY order for BTCUSDT
+2026-07-01 15:00:11 | INFO     | client | BinanceClient initialized (Testnet)
+2026-07-01 15:00:11 | DEBUG    | client | POST https://testnet.binancefuture.com/fapi/v1/order | params: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.001, 'timestamp': 1782898211822, 'signature': '***'}
+2026-07-01 15:00:13 | DEBUG    | client | Response: {'orderId': 18203457291, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': '1EjZG6Sy9im2Z8jGkKPcFQ', 'price': '0.00', 'origQty': '0.0010', 'executedQty': '0.0000', 'cumQty': '0.0000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1782898212437}
+2026-07-01 15:00:13 | INFO     | orders | Order placed successfully — ID: 18203457291, Status: NEW
+2026-07-01 15:01:13 | DEBUG    | validators | Validating order inputs...
+2026-07-01 15:01:13 | DEBUG    | validators | Symbol validated: BTCUSDT
+2026-07-01 15:01:13 | DEBUG    | validators | Side validated: SELL
+2026-07-01 15:01:13 | DEBUG    | validators | Order type validated: LIMIT
+2026-07-01 15:01:13 | DEBUG    | validators | Quantity validated: 0.001
+2026-07-01 15:01:13 | DEBUG    | validators | Price validated: 50000.0
+2026-07-01 15:01:13 | INFO     | validators | Inputs validated: {'symbol': 'BTCUSDT', 'side': 'SELL', 'order_type': 'LIMIT', 'quantity': 0.001, 'price': 50000.0}
+2026-07-01 15:01:13 | INFO     | orders | Placing LIMIT SELL order for BTCUSDT
+2026-07-01 15:01:13 | INFO     | client | BinanceClient initialized (Testnet)
+2026-07-01 15:01:13 | DEBUG    | client | POST https://testnet.binancefuture.com/fapi/v1/order | params: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': 0.001, 'price': 50000.0, 'timeInForce': 'GTC', 'timestamp': 1782898273270, 'signature': '***'}
+2026-07-01 15:01:14 | DEBUG    | client | Response: {'code': -4024, 'msg': "Limit price can't be lower than 55937.38."}
+2026-07-01 15:01:14 | ERROR    | client | API error 400: {'code': -4024, 'msg': "Limit price can't be lower than 55937.38."}
+2026-07-01 15:01:14 | ERROR    | orders | Order rejected by Binance — code: -4024, msg: Limit price can't be lower than 55937.38.
+2026-07-01 15:02:05 | DEBUG    | validators | Validating order inputs...
+2026-07-01 15:02:05 | DEBUG    | validators | Symbol validated: BTCUSDT
+2026-07-01 15:02:05 | DEBUG    | validators | Side validated: SELL
+2026-07-01 15:02:05 | DEBUG    | validators | Order type validated: LIMIT
+2026-07-01 15:02:05 | DEBUG    | validators | Quantity validated: 0.001
+2026-07-01 15:02:05 | DEBUG    | validators | Price validated: 56000.0
+2026-07-01 15:02:05 | INFO     | validators | Inputs validated: {'symbol': 'BTCUSDT', 'side': 'SELL', 'order_type': 'LIMIT', 'quantity': 0.001, 'price': 56000.0}
+2026-07-01 15:02:05 | INFO     | orders | Placing LIMIT SELL order for BTCUSDT
+2026-07-01 15:02:05 | INFO     | client | BinanceClient initialized (Testnet)
+2026-07-01 15:02:05 | DEBUG    | client | POST https://testnet.binancefuture.com/fapi/v1/order | params: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': 0.001, 'price': 56000.0, 'timeInForce': 'GTC', 'timestamp': 1782898325786, 'signature': '***'}
+2026-07-01 15:02:07 | DEBUG    | client | Response: {'orderId': 18203791977, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'Z2Z2PvfghALtlZ0iHxxJDV', 'price': '56000.00', 'origQty': '0.0010', 'executedQty': '0.0000', 'cumQty': '0.0000', 'timeInForce': 'GTC', 'type': 'LIMIT', 'reduceOnly': False, 'closePosition': False, 'side': 'SELL', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'LIMIT', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1782898326059}
+2026-07-01 15:02:07 | INFO     | orders | Order placed successfully — ID: 18203791977, Status: NEW
+2026-07-01 15:02:26 | DEBUG    | validators | Validating order inputs...
+2026-07-01 15:02:26 | DEBUG    | validators | Symbol validated: BTCUSDT
+2026-07-01 15:02:26 | DEBUG    | validators | Side validated: SELL
+2026-07-01 15:02:26 | DEBUG    | validators | Order type validated: LIMIT
+2026-07-01 15:02:26 | DEBUG    | validators | Quantity validated: 0.001
+2026-07-01 15:02:26 | DEBUG    | validators | Price validated: 56000.0
+2026-07-01 15:02:26 | INFO     | validators | Inputs validated: {'symbol': 'BTCUSDT', 'side': 'SELL', 'order_type': 'LIMIT', 'quantity': 0.001, 'price': 56000.0}
+2026-07-01 15:02:26 | INFO     | orders | Placing LIMIT SELL order for BTCUSDT
+2026-07-01 15:02:26 | INFO     | client | BinanceClient initialized (Testnet)
+2026-07-01 15:02:26 | DEBUG    | client | POST https://testnet.binancefuture.com/fapi/v1/order | params: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': 0.001, 'price': 56000.0, 'timeInForce': 'GTC', 'timestamp': 1782898346753, 'signature': '***'}
+2026-07-01 15:02:28 | DEBUG    | client | Response: {'orderId': 18203836713, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'NleUHamSYuT4iCsxqzIJ5O', 'price': '56000.00', 'origQty': '0.0010', 'executedQty': '0.0000', 'cumQty': '0.0000', 'timeInForce': 'GTC', 'type': 'LIMIT', 'reduceOnly': False, 'closePosition': False, 'side': 'SELL', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'LIMIT', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1782898347135}
+2026-07-01 15:02:28 | INFO     | orders | Order placed successfully — ID: 18203836713, Status: NEW
